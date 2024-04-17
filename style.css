@@ -1,0 +1,363 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('fonts/Kalam-Bold.ttf') format('truetype');
+    src: url('fonts/Kalam-Light.ttf') format('truetype');
+    src: url('fonts/Kalam-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('fonts/Playfair-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('fonts/Rokkitt-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Rokkitt-VariableFont_wght.ttf') format('truetype');
+    font-display: swap;
+} 
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.chic-bouton:hover {
+    background-color: #f6f6f6 !important;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+/* IMAGES DANS LE TEXT */
+
+.sanfrancisco {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* WOOCOMMERCE */
+
+
+.woocommerce-loop-product__title {
+    font-size: 20px !important;
+}
+
+
+/* HOVER MENU */
+#main-menu a:hover {
+    color:#9d4c64 !important;
+}
+
+/* CONTACT */
+.wpcf7-form .contact-cd {
+    color: black !important;
+}
+
+.prev-arrow,
+.icon-left-open-big,
+.icon-right-open-big,
+.slick-arrow ::before {
+    color: white !important;
+}
+
+
+/* WIDGET */
+
+.widget-title {
+    font-family: "Playfair";
+    font-size: 18px !important;
+    letter-spacing: 1.5px !important;
+    line-height: 24.6px !important;
+    color: black;
+    position: relative;
+    z-index: 0;
+    text-transform: uppercase;
+    text-align: center;
+    /* margin-bottom: 12px; */
+    clear: both;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#block-8 {
+    margin-bottom: 0 !important;
+}
+
+#block-5 {
+    margin-bottom: 15px !important;
+}
+
+#block-9 {
+    font-family: "Playfair" !important;
+    font-size: 18px !important;
+    letter-spacing: 1.5px !important;
+    color: #690617 !important;
+    margin-bottom: 0 !important;
+}
+
+.widget-text {
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: black;
+}
+
+#block-10 h3{
+    font-family: "Playfair Display";
+    font-size: 18px !important;
+    letter-spacing: 1.5px;
+}
+
+.widget-body {
+    padding: 50px 40px 10px 40px !important;
+    background-color: #e4dbdb;
+    width: 100% !important;
+    height: auto;
+}
+
+/* MAIL POET */
+
+
+.mailpoet_submit {
+    font-family: "Open Sans" !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    background-color: black !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none;
+    cursor: pointer;
+}
+
+.mailpoet_submit:hover {
+    background-color: #9e4d65 !important;
+}
+
+.mailpoet_text_label {
+    color: black !important;
+}
+.mailpoet-heading {
+    text-align: center !important;
+    font-family: "Playfair Display" !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px !important;
+}
+  
+/* FOOTER */
+
+.footer-copyright .credit {
+    display: none !important;
+}
+
+/* WIDGET */
+
+.aligncenter {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+
+/* AMELIORATION DE ACCESSIBILTE */
+
+
+
+.woocommerce .page-content ul.products li.product .button,
+.page-content .woocommerce ul.products li.product .button,
+.page-content .woocommerce-MyAccount-navigation-link.is-active a,
+.page-content .woocommerce-MyAccount-navigation-link a:hover {
+    color:black !important;
+}
+
+.post-categories a {
+    color:#a36972 !important;
+}
+
+.read-more a {
+    color: #a36972 !important
+}
+
+.read-more a:hover {
+    color: #fff !important;
+    background-color: #690617;
+}
+.post-date {
+    color: black !important;
+}
+
+.post-content p {
+    color: black !important;
+}
+
+.post-title a {
+    color: #690617 !important;
+}
+
+.widget-text {
+    color: black !important;
+}
+
+.rpwwt-post-categories {
+    color: black !important;
+}
+
+.rpwwt-post-title {
+    color: #9e4d65 !important;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+   .CTA {
+        font-size: 30px !important;
+        font-weight: bold !important;
+   }
+
+
+    
+}
+
+
+@media screen and ( max-width: 400px ) {
+
+    /* ACCESIBILTE */
+
+    .post-categories a {
+        color:black !important;
+    }
+
+    .post-title a {
+        color: #690617 !important;
+    }
+  
+    .post-title a {
+        color: black !important;
+    }
+
+    .rpwwt-post-title {
+        color: #9e4d65 !important;
+    }
+    
+
+    .chic-title {
+        font-size: 30px !important;
+        font-weight: bold !important;
+    }
+
+    .CTA {
+        font-size: 20px !important;
+        
+    }
+  
+    .products {
+        display: flex;
+        flex-direction: column !important;
+        width: 95% !important;
+    }
+
+    #chic-products {
+        width: 100% !important;
+    }
+
+    .page-content .woocommerce ul.products li.product {
+        width: auto !important;
+    }
+
+    .chic-bouton {
+        display: inline-block;
+        color: #fff;
+        background-color: #333;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: none;
+        cursor: pointer;
+        padding: 12px 24px; 
+        font-size: 12px;
+        text-decoration: none;
+        transition: background-color 0.3s ease; 
+    }
+    
+    .chic-bouton:hover {
+        background-color: #555; 
+    }
+
+    .mailpoet_submit {
+        font-size: 10px !important;
+    }
+
+
+}
